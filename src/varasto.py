@@ -1,7 +1,5 @@
 class Varasto:
     def __init__(self, tilavuus, alku_saldo = 0):
-        pylint_breaker = "hahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahaha"
-
         self.tilavuus = self.laske_tilavuus(tilavuus)
 
         if alku_saldo < 0.0:
